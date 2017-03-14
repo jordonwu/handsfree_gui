@@ -1,0 +1,71 @@
+<RCC>
+    <qresource prefix="/main_page">
+        <file>main_image/test.png</file>
+        <file>main_image/setting.png</file>
+        <file>main_image/serial.png</file>
+        <file>main_image/protocal.png</file>
+        <file>main_image/plot.png</file>
+        <file>main_image/network.png</file>
+        <file>main_image/information.png</file>
+        <file>main_image/github.png</file>
+        <file>main_image/control.png</file>
+        <file>main_image/exe.png</file>
+    </qresource>
+    <qresource prefix="/network_state">
+        <file>main_image/network_state/well.png</file>
+        <file>main_image/network_state/normal.png</file>
+        <file>main_image/network_state/no_connect.png</file>
+        <file>main_image/network_state/best.png</file>
+        <file>main_image/network_state/bad.png</file>
+    </qresource>
+    <qresource prefix="/pushbutton_arrow">
+        <file>main_image/pushbutton_arrow/foward.png</file>
+        <file>main_image/pushbutton_arrow/back.png</file>
+    </qresource>
+    <qresource prefix="/serial_widget">
+        <file>serial_widget_image/switch_on.png</file>
+        <file>serial_widget_image/switch_off.png</file>
+        <file>serial_widget_image/Toggle_On.png</file>
+        <file>serial_widget_image/Toggle_Off.png</file>
+        <file>serial_widget_image/switch_on_2.png</file>
+        <file>serial_widget_image/switch_off_2.png</file>
+        <file>serial_widget_image/stop_send.png</file>
+        <file>serial_widget_image/start_send.png</file>
+        <file>serial_widget_image/list_enter.png</file>
+        <file>serial_widget_image/list_leave.png</file>
+        <file>serial_widget_image/use_protocal.png</file>
+        <file>serial_widget_image/use_costumize.png</file>
+        <file>serial_widget_image/start_serial.png</file>
+        <file>serial_widget_image/close_serial.png</file>
+    </qresource>
+    <qresource prefix="/control_widget">
+        <file>control_widget_images/joystick.png</file>
+        <file>control_widget_images/pushbutton_A.png</file>
+        <file>control_widget_images/pushbutton_W.png</file>
+        <file>control_widget_images/pushbutton_S.png</file>
+        <file>control_widget_images/pushbutton_hover_W.png</file>
+        <file>control_widget_images/pushbutton_hover_S.png</file>
+        <file>control_widget_images/pushbutton_hover_D.png</file>
+        <file>control_widget_images/pushbutton_hover_A.png</file>
+        <file>control_widget_images/pushbutton_D.png</file>
+        <file>control_widget_images/up_press.png</file>
+        <file>control_widget_images/up.png</file>
+        <file>control_widget_images/right_press.png</file>
+        <file>control_widget_images/right.png</file>
+        <file>control_widget_images/left_press.png</file>
+        <file>control_widget_images/left.png</file>
+        <file>control_widget_images/down_press.png</file>
+        <file>control_widget_images/down.png</file>
+    </qresource>
+    <qresource prefix="/util_widget">
+        <file>util_image/edit_item.png</file>
+        <file>util_image/delete_item.png</file>
+        <file>util_image/add_item.png</file>
+    </qresource>
+    <qresource prefix="/visualization_widget">
+        <file>visualization_widget/stop.png</file>
+        <file>visualization_widget/start.png</file>
+        <file>visualization_widget/setting.png</file>
+        <file>visualization_widget/add.png</file>
+    </qresource>
+</RCC>
