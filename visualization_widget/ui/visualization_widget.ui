@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VisualizationWidget</class>
+ <widget class="QWidget" name="VisualizationWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>564</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_show">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>91</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>91</width>
+           <height>17</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>information:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBox_show">
+         <property name="minimumSize">
+          <size>
+           <width>161</width>
+           <height>25</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QRadioButton" name="radioButton_legend">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>22</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>22</height>
+          </size>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QRadioButton{
+    spacing: px;
+    color: black;
+}
+QRadioButton::indicator {
+    width: 45px;
+    height: 30px;
+}
+QRadioButton::indicator:unchecked {
+    image: url(:/serial_widget/serial_widget_image/Toggle_Off.png);
+}
+QRadioButton::indicator:unchecked:hover {
+    image: url(:/serial_widget/serial_widget_image/Toggle_Off.png);
+}
+QRadioButton::indicator:unchecked:pressed {
+    image: url(:/serial_widget/serial_widget_image/Toggle_Off.png);
+}
+QRadioButton::indicator:checked {
+    image: url(:/serial_widget/serial_widget_image/Toggle_On.png);
+}
+QRadioButton::indicator:checked:hover {
+    image: url(:/serial_widget/serial_widget_image/Toggle_On.png);
+}
+QRadioButton::indicator:checked:pressed {
+    image: url(:/serial_widget/serial_widget_image/Toggle_On.png);
+}</string>
+         </property>
+         <property name="text">
+          <string>legend</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+         <property name="autoRepeat">
+          <bool>false</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="pushButton_control">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+<<<<<<< HEAD
+            <iconset>
+             <normaloff>:/visualization_widget/visualization_widget/start.png</normaloff>
+             <activeoff>:/visualization_widget/visualization_widget/stop.png</activeoff>:/visualization_widget/visualization_widget/start.png</iconset>
+=======
+            <iconset resource="../../res/res.qrc">
+             <normaloff>:/visualization_widget/visualization_widget/start.png</normaloff>:/visualization_widget/visualization_widget/start.png</iconset>
+>>>>>>> d60962d2de6b646d5237592c98a4d25838e6b546
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_add">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+<<<<<<< HEAD
+            <iconset>
+=======
+            <iconset resource="../../res/res.qrc">
+>>>>>>> d60962d2de6b646d5237592c98a4d25838e6b546
+             <normaloff>:/visualization_widget/visualization_widget/add.png</normaloff>:/visualization_widget/visualization_widget/add.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>16</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_setting">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+<<<<<<< HEAD
+            <iconset>
+=======
+            <iconset resource="../../res/res.qrc">
+>>>>>>> d60962d2de6b646d5237592c98a4d25838e6b546
+             <normaloff>:/visualization_widget/visualization_widget/setting.png</normaloff>:/visualization_widget/visualization_widget/setting.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="PlotWidget" name="widget_plot" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>541</width>
+       <height>351</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PlotWidget</class>
+   <extends>QWidget</extends>
+   <header>visualization_widget/plot_widget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+<<<<<<< HEAD
+ <resources/>
+=======
+ <resources>
+  <include location="../../res/res.qrc"/>
+ </resources>
+>>>>>>> d60962d2de6b646d5237592c98a4d25838e6b546
+ <connections/>
+</ui>
